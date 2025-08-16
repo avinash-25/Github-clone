@@ -151,6 +151,7 @@ body {
     transition: all var(--animation-duration) ease;
     position: relative;
     overflow: hidden;
+    text-wrap: nowrap;
 }
 
 .nav-link::before {
@@ -193,7 +194,7 @@ body {
 }
 
 .search-input {
-    width: 320px;
+    width: 280px;
     padding: 12px 48px 12px 44px;
     color: var(--text-primary);
     background: var(--surface);
@@ -207,7 +208,7 @@ body {
 .search-input:focus {
     border-color: var(--accent-secondary);
     box-shadow: 0 0 0 3px rgba(47, 129, 247, 0.1);
-    width: 380px;
+    /* width: 380px ; */
 }
 
 .search-icon {
