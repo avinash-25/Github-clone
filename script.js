@@ -300,7 +300,7 @@
                     });
                 }, 1000);
 
-                console.log('🚀 Enhanced GitHub Clone initialized!');
+                console.log('GitHub Clone');
                 console.log('💡 Keyboard shortcuts:');
                 console.log('  - Press "/" to focus search');
                 console.log('  - Press Alt + 1-5 for quick navigation');
