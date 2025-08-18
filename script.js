@@ -20,12 +20,12 @@
                     
                     // Update page title
                     const pageTitles = {
-                        'home': 'GitHub Clone - Enhanced',
-                        'features': 'Features - GitHub Clone',
-                        'solutions': 'Solutions - GitHub Clone', 
-                        'opensource': 'Open Source - GitHub Clone',
-                        'pricing': 'Pricing - GitHub Clone',
-                        'enterprise': 'Enterprise - GitHub Clone'
+                        'home': 'GitHub Clone',
+                        'features': 'Features',
+                        'solutions': 'Solutions', 
+                        'opensource': 'Open Source',
+                        'pricing': 'Pricing',
+                        'enterprise': 'Enterprise'
                     };
                     document.title = pageTitles[pageName] || 'GitHub Clone';
                 }
